@@ -480,6 +480,16 @@ export const rtx3070: Card<RTXBrands, NVIDIAChipsets, RetailerListings>[] = [
   },
   {
     chipset: NVIDIAChipsets.RTX_3070,
+    brand: RTXBrands.MSI,
+    card: 'SUPRIM X OC',
+    model: 'RTX 3070 SUPRIM X 8G',
+    mwave: 'https://www.mwave.com.au/product/msi-geforce-rtx-3070-suprim-x-8gb-video-card-ac40649',
+    jw: 'https://www.jw.com.au/msi-geforce-rtx-3070-suprim-x-8gb-graphic-card',
+    pccg: 'https://www.pccasegear.com/products/52755/msi-geforce-rtx-3070-suprim-x-8gb',
+    computeralliance: 'https://www.computeralliance.com.au/msi-rtx3070-8gb-suprim-x-pcie-video-card'
+  },
+  {
+    chipset: NVIDIAChipsets.RTX_3070,
     brand: RTXBrands.PNY,
     card: 'UPRISING',
     model: 'VCG30708DFMPB',
@@ -719,6 +729,16 @@ export const rtx3080: Card<RTXBrands, NVIDIAChipsets, RetailerListings>[] = [
   {
     chipset: NVIDIAChipsets.RTX_3080,
     brand: RTXBrands.MSI,
+    card: 'Suprim X OC',
+    model: 'RTX 3080 SUPRIM X 10G',
+    mwave: 'https://www.mwave.com.au/product/msi-geforce-rtx-3080-suprim-x-10gb-video-card-ac40223',
+    pccg: 'https://www.pccasegear.com/products/52533/msi-geforce-rtx-3080-suprim-x-oc-10gb',
+    pcbyte: 'https://www.pcbyte.com.au/store/product/msi-nvidia-geforce-rtx-3080-suprim-x-10g-video-card-64075',
+    computeralliance: 'https://www.computeralliance.com.au/msi-rtx3080-10gb-suprim-x-pcie-video-card'
+  },
+  {
+    chipset: NVIDIAChipsets.RTX_3080,
+    brand: RTXBrands.MSI,
     card: 'GAMING X TRIO',
     model: 'RTX 3080 GAMING X TRIO 10G',
     austin: 'https://www.austin.net.au/msi-rtx3080-gaming-x-trio-10g-graphics-card.html',
@@ -825,6 +845,7 @@ export const rtx3090: Card<RTXBrands, NVIDIAChipsets, RetailerListings>[] = [
     ple: 'https://www.ple.com.au/Products/643379/ASUS-GeForce-RTX-3090-TUF-Gaming-OC-24GB-GDDR6X',
     scorptec: 'https://www.scorptec.com.au/product/graphics-cards/nvidia/85377-tuf-rtx3090-o24g-gaming',
     umart: 'https://www.umart.com.au/Asus-GeForce-RTX-3090-TUF-Gaming-OC-24G-Graphics-Card_56892G.html',
+    mwave: 'https://www.mwave.com.au/product/asus-geforce-rtx-3080-tuf-gaming-oc-10gb-video-card-ac38205',
     pcbyte: 'https://www.pcbyte.com.au/store/product/asus-nvidia-geforce-rtx-3090-tuf-gaming-oc-24gb-video-card-tuf-rtx3090-o24g-gaming-57719'
   },
   {
@@ -965,7 +986,7 @@ export const rtx3090: Card<RTXBrands, NVIDIAChipsets, RetailerListings>[] = [
   {
     chipset: NVIDIAChipsets.RTX_3090,
     brand: RTXBrands.MSI,
-    card: 'SUPRIM',
+    card: 'SUPRI X OC',
     model: 'RTX 3090 SUPRIM X 24G',
     austin: 'https://www.austin.net.au/atatmsi-geforce-rtx-3090-suprim-x-24gb-graphics-card.html',
     bpc: 'https://www.bpctech.com.au/rtx3090-suprim-x-24g-msi-geforce-rtx-3090-suprim-x-24gb-video-card.html',
@@ -980,7 +1001,7 @@ export const rtx3090: Card<RTXBrands, NVIDIAChipsets, RetailerListings>[] = [
     chipset: NVIDIAChipsets.RTX_3090,
     brand: RTXBrands.MSI,
     card: 'VENTUS 3X OC',
-    model: 'RTX 3090 SUPRIM X 24G',
+    model: 'RTX 3090 VENTUS 2X OC 24G',
     centrecom: 'https://www.centrecom.com.au/msi-geforce-rtx-3090-ventus-3x-24g-oc-graphics-card',
     austin: 'https://www.austin.net.au/atatmsi-rtx-3090-ventus-3x-24g-oc-graphics-card.html',
     bpc: 'https://www.bpctech.com.au/rtx3090-ventus-3x-24g-oc-msi-geforce-rtx-3090-ventus-3x-oc-24gb-video-card.html',
@@ -990,8 +1011,7 @@ export const rtx3090: Card<RTXBrands, NVIDIAChipsets, RetailerListings>[] = [
     pccg: 'https://www.pccasegear.com/products/51683/msi-geforce-rtx-3090-ventus-3x-oc-24gb',
     ple: 'https://www.ple.com.au/Products/643084/MSI-GeForce-RTX-3090-VENTUS-3X-OC-24GB-GDDR6X',
     scorptec: 'https://www.scorptec.com.au/product/graphics-cards/nvidia/85145-geforce-rtx-3090-ventus-3x-24g-oc',
-    umart: 'https://www.umart.com.au/MSI-GeForce-RTX-3090-Ventus-3X-24G-OC-Graphics-Card_56835G.html',
-    jw: 'https://www.umart.com.au/MSI-GeForce-RTX-3090-Ventus-3X-24G-OC-Graphics-Card_56835G.html'
+    umart: 'https://www.umart.com.au/MSI-GeForce-RTX-3090-Ventus-3X-24G-OC-Graphics-Card_56835G.html'
   },
   {
     chipset: NVIDIAChipsets.RTX_3090,
