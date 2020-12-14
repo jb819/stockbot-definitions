@@ -788,6 +788,13 @@ export const rtx3080: Card<RTXBrands, NVIDIAChipsets, RetailerListings>[] = [
     ple: 'https://www.ple.com.au/Products/643554/ZOTAC-GAMING-GeForce-RTX-3080-Trinity-OC-10GB-GDDR6X',
     scorptec: 'https://www.scorptec.com.au/product/graphics-cards/nvidia/85326-zt-a30800j-10p'
   }
+    {
+    chipset: NVIDIAChipsets.RTX_3080,
+    brand: RTXBrands.GALAX,
+    card: 'SG 1-Click OC',
+    model: '38NWM3MD99NN',
+    mwave: 'https://www.mwave.com.au/product/galax-geforce-rtx-3080-sg-1click-oc-10gb-video-card-ac38128'
+  }
 ];
 
 export const rtx3090: Card<RTXBrands, NVIDIAChipsets, RetailerListings>[] = [
